@@ -7,11 +7,6 @@ body {
     padding: 20px;
 }
 
-.pf {
-    max-width: 400px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
 
 .citacao {
     font-style: italic;
@@ -46,7 +41,7 @@ h1 {
 
 .menu a:hover {
     color: #4f1212;
-    text-shadow: 0 0 10px #370303;
+    text-shadow: 0 0 10px #e6ebc7;
 }
 
 .inicie {
@@ -95,7 +90,7 @@ h1 {
     background-color: #fffffff0;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(252, 255, 170, 0.942);
+    box-shadow: 0 4px 6px rgba(9, 9, 0, 0.942);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,11 +154,11 @@ h1 {
     border-radius: 10px;
 }
 
-.redes{
+.redes {
     background-color: #ffffff;
     padding: 25px;
     border-radius: 8px;
-    box-shadow:0 4px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,4 +180,57 @@ h1 {
     gap: 10px;
     max-width: 700px;
     margin: 0 auto;
+}
+
+#in {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2016/10/canetas20coloridas10.jpg?quality=70&w=600');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sob {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDRh8ylOyogduqDeBHsMSIwmQh2CU5fnsH6wyOCEUk2Qw1WSAXnUXgjRA&s=10');
+    background-size: cover;
+    background-position: center;
+}
+
+body.ex {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2016/10/canetas20coloridas10.jpg?quality=70&w=600');
+    background-size: cover;
+    background-position: center;
+
+}
+
+body.mn {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2016/10/canetas20coloridas10.jpg?quality=70&w=600');
+    background-size: cover;
+    background-position: center;
+
+}
+
+body.pff{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('file:///C:/Users/ADM/Downloads/Retrato%20Gr%C3%A1fico%20de%20Paulo%20Freire%20(1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contato {
+max-width: 500px;
+margin: 30px auto;
+padding: 25px;
+background: #fffdf5;
+border: 2px solid #e5d8c4;
+border-radius: 15px;
+box-shadow: 0 5px 15px #550c0c20;
+text-align:center
+}
+
+.form input, .form textarea {
+    padding: 12px;
+    border: 1px solid #d8c7ad;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 17px;
 }
